@@ -1,0 +1,93 @@
+.features__items{
+  display: flex;
+  justify-content: space-around;
+  text-align: center; 
+  width: 90%;
+  
+  }
+
+.features{
+  margin-bottom: 39px;
+}
+.features__item-feat{
+  display: inline-block;
+  /* display: flex; */
+  text-align: center;
+  width: 27%;
+  /* margin-right: 68px; */
+}
+
+.feat__img{
+  border-radius: 50%;
+  display: flex;
+  background: #27273e;
+  text-align: center;
+  }
+
+.feat__title{
+color: #212121;
+font-family: "Gotham Pro";
+font-size: 11px;
+font-weight: bold;
+line-height: 48px;;
+text-transform: uppercase;
+}
+
+.feat-icon{
+  margin-bottom: 30px;
+}
+
+.feat__desc{
+color: #221f1f;
+  font-family: "Gotham Pro";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0;
+  
+} 
+
+.feat__list{
+  text-align: left;
+  padding-top: 3px;
+  color: #221f1f;
+  font-family: "Gotham Pro";
+  font-size: 16px;
+  font-weight: 300;
+  /* margin-top: 10px; */
+  /* line-height: 30px; */
+}
+
+.feat__list-item{
+  display: flex;
+  flex-direction: row;
+  padding-right: 40px;
+  
+}
+
+li.feat__list-item ::before{
+  content: "•";
+  display: inline-flex;
+  vertical-align: middle;
+  color: #cc3366;
+  margin-right: 30px;
+}
+
+.feat__list-item{
+  list-style: disc;
+  color: #cc3366;
+  list-style-position: inside;
+  margin-bottom: 18px;
+}
+
+.feat__list-item span{
+  color: #000;
+}
+
+ul.feat__list{
+  padding-left: 0;
+}
+
+li{
+  list-style-type: none;
+}

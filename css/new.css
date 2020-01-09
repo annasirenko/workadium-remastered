@@ -1,0 +1,31 @@
+@import url('./fonts.css');
+@import url('./normalize.css');
+@import url('./base.css');
+@import url('./header.css');
+@import url('./menu.css');
+@import url('./features.css');
+@import url('./news.css');
+@import url('./breadcrumbs.css');
+@import url('./rectangle.css');
+@import url('./form.css');
+@import url('./services.css');
+@import url('./card.css');
+@import url('./partners.css');
+
+@import url('./topprice.css');
+@import url('./menu_for_comments.css');
+@import url('./menu_prices.css');
+
+
+@import url('./sidebar.css');
+@import url('./sidebar_icons_for_prices.css');
+
+
+@import url('./index.css');
+
+
+
+
+@import url('./pagination.css');
+@import url('./footer.css');
+@import url('./socials.css');

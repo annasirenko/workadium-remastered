@@ -1,0 +1,87 @@
+.services {
+  margin-top: 28px;
+}
+
+.services__container {
+  width: 881px;
+}
+
+.services__title {
+  color: #221f1f;
+  font-family: "Gotham Pro";
+  font-size: 49px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.47px;
+/* line-height: 38px; */
+}
+
+.services__cards {
+  margin-top: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 879px;
+  min-height: 963px;
+}
+
+.card {
+  width: 251px;
+  min-height: 412px;
+}
+
+.card__logo {
+  width: 250px;
+  height: 153px;
+  background-color: #000000;
+  border-radius: 6px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card__logo-image {
+  width: 250px;
+  height: 153px;
+  opacity: 0.52;
+}
+
+.card__logo-title {
+  text-align: center;
+  position: relative;
+  margin-top: -96px;
+  color: #5dd1f8;
+  font-family: "Gotham Pro";
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.72px;
+}
+
+
+.card__logo-title--pink {
+  text-align: center;
+  position: relative;
+  margin-top: -96px;
+  color: #ec1e79;
+  font-family: "Gotham Pro";
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.72px;
+}
+
+
+p {
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+.card__desc {
+  margin-top: 28px;
+  
+}
+
+

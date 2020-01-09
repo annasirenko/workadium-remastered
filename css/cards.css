@@ -1,0 +1,33 @@
+.services {
+  margin-top: 28px;
+}
+
+.services__container {
+  width: 881px;
+}
+
+.services__title {
+  color: #221f1f;
+  font-family: "Gotham Pro";
+  font-size: 49px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.47px;
+/* line-height: 38px; */
+}
+
+.services__cards {
+  margin-top: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 879px;
+  min-height: 963px;
+}
+
+.card {
+  width: 251px;
+  min-height: 412px;
+}
+
+

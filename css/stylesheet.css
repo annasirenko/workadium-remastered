@@ -1,0 +1,170 @@
+@import url('./fonts.css');
+@import url('./normalize.css');
+@import url('./base.css');
+@import url('./sidebar_icons_for_prices.css');
+@import url('./header.css');
+@import url('./sidebar.css');
+@import url('./breadcrumbs.css');
+@import url('./footer.css');
+@import url('./socials.css');
+
+
+
+.maincontent__container{
+display: flex;
+justify-content: space-between;
+}
+
+
+.services__container {
+  width: 881px;
+}
+
+.services__title {
+  color: #221f1f;
+  font-family: "Gotham Pro";
+  font-size: 49px;
+  font-weight: 700;
+  /* letter-spacing: 1.47px; */
+/* line-height: 38px; */
+margin-top: 10px;
+}
+
+.services__list {
+  margin-top: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  /* width: 879px;
+  min-height: 963px; */
+  margin-right: 25px;
+  padding-bottom: 5px;
+}
+
+p{
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  
+}
+
+.card {
+  width: 251px;
+  min-height: 412px;
+}
+
+.card__logo {
+  width: 250px;
+  height: 153px;
+  background-color: #000000;
+  border-radius: 6px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card__logo-image {
+  width: 250px;
+  height: 153px;
+  opacity: 0.52;
+}
+
+.card__logo-title {
+  text-align: center;
+  position: relative;
+  margin-top: -100px;
+  color: #5dd1f8;
+  font-family: "Gotham Pro";
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.72px;
+}
+
+
+
+.card__logo-title--pink {
+  text-align: center;
+  position: relative;
+  margin-top: -100px;
+  color: #ec1e79;
+  font-family: "Gotham Pro";
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.72px;
+}
+
+.card__desc {
+  margin-top: 20px;
+  
+}
+
+/* .partners{
+  padding-bottom: 35px;
+  
+} */
+
+.partners__container{
+  width: 881px;
+  /* margin-top: 20px; */
+}
+
+.partners__title {
+  color: #221f1f;
+  font-family: "Gotham Pro";
+  font-size: 49px;
+  font-weight: 700;
+  letter-spacing: 1.47px;
+  margin-bottom: 35px;          
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: space-between;
+  min-height: 175px; 
+  padding-right: 40px;
+  
+}
+
+li.partners__card{
+  margin-bottom: 40px;
+  /* justify-content: flex-start; */
+  /* margin-right: 30px; */
+}
+.partners__card{
+  /* width: 278px;
+  display: flex;
+  align-items: center; */
+  flex: 1 0 260px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 64px;
+  transition: filter .3s ease-out;
+}
+
+.partner__logo{
+  /* display: block; */
+  width: 225 px;
+  min-height: 41px;
+}
+
+.partner__logo--icon{
+  display: flex;
+  flex-wrap:  wrap;
+  justify-content: space-between;
+
+  
+}
+
+.partner__logo{
+  filter: grayscale(100%);
+}
+.partner__logo:hover{
+  filter:grayscale(0);
+}
+

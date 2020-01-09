@@ -1,0 +1,136 @@
+@import url('./fonts.css');
+@import url('./normalize.css');
+
+
+body {
+  font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+}
+
+  html, body{
+  height: 100%;
+  width: 100%;
+}
+
+.wrapping{
+  height: 100%;
+  width: 100%;
+  background: url("../img/aso6syjzgps-hannah-wei.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  }
+
+.introcontent{
+  height: 100%;
+  
+  }
+
+
+.introcontent__container{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  
+  
+}
+
+
+.intro__logo{
+/* margin-top: 200px; */
+margin-bottom: 40px;
+
+}
+
+.intro__button{
+/* display: flex;
+justify-content: center;
+align-items: center; */
+/* padding-left: 250px; */
+/* padding-top: 30px; */
+/* padding-right: 250px; */
+
+}
+.intro__button-send{
+padding: 15px 22px 15px 22px;
+/* padding-right: 10px; */
+text-decoration: none;
+font-size: 14px;
+font-weight: 700;
+color: #ec1e79;
+border: 3px solid #ec1e79;
+align-items: center;
+text-transform: uppercase;
+background-color: transparent;
+
+}
+
+.intro__button-send:hover{
+  background-color: #ec1e79;
+  cursor: pointer;
+  color: #ffff;
+}
+
+.intro__content{
+  min-width: 192px;
+  text-align: center;
+  margin-top: 200px;
+  opacity: 0;
+  animation: myAnimation 5s;
+  animation-iteration-count: unset;
+  /* animation-delay: 2s; */
+  animation-fill-mode: forwards;
+  /* width: 183px;
+  height: 193px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; */
+}
+@keyframes myAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  33% {
+    opacity: 0;
+    transform: scale(0.5, 0.5) rotate(30deg);
+  }
+
+  40% {
+    opacity: 1;
+    transform: scale(1, 1) rotate(-30deg);
+  }
+
+  41% {
+    
+    transform: scale(1, 1) rotate(-20deg);
+  }
+
+  43% {
+    
+    transform: scale(1, 1) rotate(-10deg);
+  }
+  
+  53% {
+    
+    transform: scale(1, 1) rotate(10deg);
+  }
+
+  98% {
+    
+    transform: scale(1, 1) rotate(0deg);
+  }
+  
+  100% {
+    opacity: 1;
+    
+  }
+}
+

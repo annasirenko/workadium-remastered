@@ -1,0 +1,66 @@
+
+.rectangle__info,
+.rectangle__pattern{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rectangle__info {
+  /* height: 177px; */
+  /* width: 100%; */
+  background-color: #27273e;
+  margin-bottom: 10px;
+  margin-top: 11px;
+    /* position: relative;
+  margin: 0 auto; */
+  
+}
+
+.rectangle__text {
+color: #ec1e79;
+font-weight: 700;
+font-size: 18px;
+line-height: 30px;
+}
+
+.rectangle__container{
+  /* position: relative; */
+  /* min-height: 177px; */
+  width: 274px;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  
+}
+
+.rectangle__pattern{
+  background-image: url('../img/pattern.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* .rectangle__pattern{
+  background-repeat: no-repeat;
+  background-position: inherit;
+} */
+
+.rectangle__desc{
+font-family: "Gotham Pro";
+color: #ffffff;
+font-size: 18px;
+font-weight: 300;
+line-height: 30px;
+width: 94%;
+text-align: center;
+/* padding-bottom: 50px; */
+/* display: inline-block;
+width: 611px; */
+/* position: absolute;
+top: 50%;
+left: 50%;
+transform: translateX(-50%);
+transform: translate(-50%,-50%); */
+}
+

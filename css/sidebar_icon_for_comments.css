@@ -1,0 +1,31 @@
+
+.menu__link--main:before {
+  background-image: url('../img/main_icon-pink.png')
+}
+
+.menu__link--comments:before {
+  background-image: url('../img/feed_icon-black.png')
+}
+
+.menu__link--tarriffs:before {
+  background-image: url('../img/wallet_icon.png')
+}
+
+.menu__link--main:hover:before{
+  background-image: url('../img/main_icon.png')
+}
+
+/* .menu__link--comments:hover:before{
+  background-image: url('../img/feed_icon.png')
+
+} */
+
+.menu__link--tarriffs:hover:before{
+  background-image: url('../img/wallet_icon-black.png')
+}
+
+.menu__link--active{
+  color: #000;
+  text-decoration: underline;
+  
+}

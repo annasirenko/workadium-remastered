@@ -1,0 +1,122 @@
+.paginataion__container{
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: nowrap; */
+  justify-content: center;
+  /* align-content: stretch; */
+}
+
+.pagination{
+  margin: 0 auto;
+  text-align: center;
+  /* padding-top: 10px; */
+  margin-left: 194px;
+
+  
+}
+
+.pagination__comments {
+  margin: 0 auto;
+  text-align: center;
+  /* padding-top: 18px; */
+  
+}
+
+.pagination__display,
+.pagination__pages-list,
+.pagination__pages-item{
+  display: inline-flex;
+}
+
+
+.pagination__pages-item {
+  margin-right: 14px;
+  
+}
+
+.pagination__display{ 
+  margin-right: 20px;
+  color: #656464;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.pages__arrow--left {
+  opacity: 0.3;
+}
+.pages__arrow--left,
+.pages__arrow--right {
+  color: #221f1f;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.pagination__pages-link{
+  display: inline-block;
+  color: #221f1f;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 25px;
+  height: 25px;
+}
+
+.pagination__pages-link--active{
+  width: 25px;
+  height: 25px;
+  background-color: #27273e;
+  color: #ec1e79;
+}
+
+.pagination__pages-link:hover{
+    color: #ec1e79;
+}
+
+
+
+
+.pagination__pages--item {
+  margin-right: 12px;
+  
+}
+
+.pagination__display{ 
+  margin-right: 20px;
+  color: #656464;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.pages__arrow--left {
+  opacity: 0.3;
+}
+.pages__arrow--left,
+.pages__arrow--right {
+  color: #221f1f;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.pagination__pages--link{
+  display: inline-block;
+  color: #221f1f;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.pagination__pages--link-active{
+  width: 25px;
+  height: 25px;
+  background-color: #27273e;
+  color: #ffff;
+}

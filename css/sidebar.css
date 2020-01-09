@@ -1,0 +1,27 @@
+
+.sidebar{
+  /* min-width: 180px;
+  min-height: 1433px;
+  float: left;
+  padding-right: 20px;
+  margin-right: 20px; */
+  /* display: inline-block; */
+  /* vertical-align: top;
+  margin-right: 70px;  
+  padding-top: 20px;  */
+  /* padding-top: 30px;  perfectpixel */
+  /* display: flex;
+  align-items: flex-start;
+  flex-direction: column; */
+}
+
+
+.maincontent__container{
+  display: flex;
+  justify-content: space-between;
+}
+/* .page{
+  display: inline-block;
+  width: 880px;
+  vertical-align: top;
+} */

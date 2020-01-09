@@ -1,0 +1,28 @@
+.services{
+  margin-bottom: 10px;
+}
+.services__container {
+    min-width: 881px;
+  }
+  
+  .services__title {
+    color: #221f1f;
+    font-family: "Gotham Pro";
+    font-size: 49px;
+    font-weight: 700;
+    /* letter-spacing: 1.47px; */
+  /* line-height: 38px; */
+  margin-top: -23px;
+    margin-left: -9px;
+  }
+  
+  .services__list {
+    margin-top: 36px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    /* width: 879px;
+    min-height: 963px; */
+    margin-right: 17px;
+    padding-bottom: 5px;
+  }

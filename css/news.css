@@ -1,0 +1,131 @@
+.feed{
+  /* padding-top: 60px; */
+  /* margin-bottom: 28px; */
+  padding-top: 16px;
+}
+
+.feed__main{
+  margin-bottom: 38px;
+  padding-top: 16px;
+}
+
+li {
+  list-style: none;
+}
+
+
+.news__pic{
+  overflow: hidden;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: top;
+  width: 170px;
+  height: 170px;
+  /* max-width: 100%; */
+  flex-shrink: 0;
+  /* margin-top: 29px; */
+  margin-left: 5px;
+}
+
+.news__pic__comments{
+  overflow: hidden;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: top;
+  width: 160px;
+  height: 160px;
+  /* max-width: 100%; */
+  flex-shrink: 0;
+}
+
+.news__avatar--round{
+  background-color: #f5f5f5;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+    background-image: url('../img/com_logo.png')
+}
+
+.news__avatar--icon{
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+.news__avatar{
+  display: block;
+  max-width: 100%;
+}
+
+
+/* .last__news{
+  padding-bottom: 75px;
+} */
+
+.news__item{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f5f5f5;
+  margin-bottom: 29px;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: flex-start;
+}
+
+.news__item-comments{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f5f5f5;
+  margin-bottom: 26px;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: flex-start;
+}
+
+.news__item:last-child{
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.news__desc{
+  /* display: inline-block; */
+  /* width: 60%; */
+  /* vertical-align: top; */
+  margin-left: 24px;
+  /* margin-top: 12px; */
+}
+
+.news__desc__comments{
+  margin-left: 15px;
+}
+
+.news__date{
+  color: #656464;
+    font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  /* padding-bottom: 10px; */
+}
+
+.news__title{
+  font-weight: 700;
+  line-height: 21px;
+  padding-top: 3px;
+}
+
+.news__text-main{
+  color: #221f1f;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.17;
+  padding-top: 10px;
+  /* margin-top: 10px; */
+}
+
+.news__text{
+  color: #221f1f;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.7;
+  padding-top: 10px;
+  /* margin-top: 10px; */
+}
